@@ -8,7 +8,7 @@ body {
     left:0;
     background-image: url("https://images7.alphacoders.com/102/1029683.jpg");
     background-position: center;
-    
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -48,6 +48,9 @@ header .icons span {
     color: white;
 }
 
+header .icons span:hover {
+    color:black;
+}
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,16 +83,14 @@ nav .profile-link a {
 
 }
 
+nav .profile-link a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+
+}
 .main-section .main-title {
     font-family: 'Quicksand', sans-serif;
-    /* text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-   */
-   font-size: 30px;
+    font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
     color: black;
@@ -98,15 +99,14 @@ nav .profile-link a {
 
 
 .home-main .main-button {
-        background-color: #48cfad;
-        width: 100px;
-        height: 25px;
-        font-family: 'Quicksand', sans-serif;
-        border:none;
-        cursor: pointer;
-        border-radius: 5px;
-        padding: 5px;
-        text-align: center;
+    background-color: #48cfad;
+    width: 100px;
+    height: 25px;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
       
   }
 
