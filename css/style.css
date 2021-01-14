@@ -167,4 +167,11 @@ h3 {
 .blog-paragraph {
     font-family: 'Quicksand', sans-serif;
 }
+footer {
+    text-align: center;
+    height: 45px;
+}
+footer a:hover {
+ color: white;   
+}
 
