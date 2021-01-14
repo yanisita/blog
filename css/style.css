@@ -101,6 +101,11 @@ nav .profile-link a:hover {
 
 
 /* Estilos para menú principal  */
+.home-main-title {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
 
 .main-section .main-title {
 
