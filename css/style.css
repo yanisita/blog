@@ -83,16 +83,7 @@ nav .profile-link a:hover {
     border-bottom: 1px solid black;
 }
 
-.main-section .main-title {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
-    font-weight: 700px;
-    letter-spacing: 10px;
-    color: black;
-    text-align: center;
-}
-
-.home-main .main-button {
+.main-button {
     background-color: #48cfad;
     width: 100px;
     height: 25px;
@@ -101,11 +92,25 @@ nav .profile-link a:hover {
     border-radius: 5px;
     padding: 5px;
     text-align: center;
+    font-weight: bold;
   }
 
-.home-main .main-button:hover {
+.main-button:hover {
     background-color:#2aad8c;
 }
+
+
+/* Estilos para menú principal  */
+
+.main-section .main-title {
+
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: black;
+    text-align: center;
+}
+
 
 .home-main section {
     display: grid;
@@ -113,5 +118,53 @@ nav .profile-link a:hover {
     justify-items: center;
     height: 350px;
     margin-top: 80px;
+}
+
+/* Estilos para sección de Blog */
+
+.principal-blog-container {
+    margin: 40px;
+}
+
+.initial-blog-view, .last-blogs-container {
+    padding: 15px;
+    display: flex;
+    text-align: justify;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.initial-blog-image img, .last-blog-posted img {
+    border-radius: 5px;
+   
+}
+
+.initial-blog-paragraph-container {
+    padding: 45px;
+    display: block;
+}
+.last-blogs-title {
+    text-align: center;
+}
+.last-blogs-container {
+    display: flex;
+    text-align: justify;
+   
+   
+}
+.last-blogs-container img {
+    width: 350px;
+    height: 200px;
+}
+.last-blog-posted {
+   padding: 15px;
+    
+}
+.blog-paragraph {
+    font-family: 'Quicksand', sans-serif;
 }
 
