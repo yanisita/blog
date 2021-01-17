@@ -132,7 +132,7 @@ nav .profile-link a:hover {
     margin: 40px;
 }
 
-.initial-blog-view, .last-blogs-container {
+.initial-blog-view, .last-blogs-container, .blogspot-article-container, .contact-main-container  {
     padding: 15px;
     display: flex;
     text-align: justify;
@@ -144,7 +144,7 @@ h3 {
     cursor: pointer;
 }
 
-.initial-blog-image img, .last-blog-posted img {
+.initial-blog-image img, .last-blog-posted img, .blogspot-article-container img {
     border-radius: 5px;
    
 }
@@ -153,31 +153,67 @@ h3 {
     padding: 45px;
     display: block;
 }
+
 .last-blogs-title {
     text-align: center;
 }
+
 .last-blogs-container {
     display: flex;
     text-align: justify;
-   
-   
 }
+
 .last-blogs-container img {
     width: 350px;
     height: 200px;
 }
+
 .last-blog-posted {
    padding: 15px;
     
 }
+
 .blog-paragraph {
     font-family: 'Quicksand', sans-serif;
 }
+
 footer {
     text-align: center;
     height: 25px;
 }
+
 footer a:hover {
  color: white;   
 }
+
+/* Estilos para Blog Individual */
+
+.blogspot-article-container {
+    display: block;
+   
+}
+
+.contact-main-container {
+    margin-top: 1%;
+    text-align: center;
+}
+.contact-main-container  div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container, .contact-left, .contact-right {
+    text-align: initial;
+}
+
+.contact-main-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-main-container a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
