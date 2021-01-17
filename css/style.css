@@ -30,7 +30,6 @@ header .header-icons-container {
     height: 50px;
     display: grid;
     background-color: transparent;
-    position: fixed;
 }
 
 header .header-icons-container .icons {
