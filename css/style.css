@@ -22,6 +22,7 @@ header {
     height: 140px;
     display: grid;
     grid-template-rows:  1fr 1fr;
+    
 }
 
 header .header-icons-container {
@@ -29,6 +30,7 @@ header .header-icons-container {
     height: 50px;
     display: grid;
     background-color: transparent;
+    position: fixed;
 }
 
 header .header-icons-container .icons {
@@ -128,11 +130,11 @@ nav .profile-link a:hover {
 
 /* Estilos para sección de Blog */
 
-.principal-blog-container {
+.principal-blog-container, .initial-profile-view {
     margin: 40px;
 }
 
-.initial-blog-view, .last-blogs-container, .blogspot-article-container, .contact-main-container  {
+.initial-blog-view, .last-blogs-container, .blogspot-article-container, .contact-main-container, .initial-profile-view, .last-projects-container{
     padding: 15px;
     display: flex;
     text-align: justify;
@@ -144,7 +146,7 @@ h3 {
     cursor: pointer;
 }
 
-.initial-blog-image img, .last-blog-posted img, .blogspot-article-container img {
+.initial-blog-image img, .last-blog-posted img, .blogspot-article-container img, .last-projects-container img {
     border-radius: 5px;
    
 }
@@ -163,7 +165,7 @@ h3 {
     text-align: justify;
 }
 
-.last-blogs-container img {
+.last-blogs-container img, .last-project-done img {
     width: 350px;
     height: 200px;
 }
@@ -190,12 +192,13 @@ footer a:hover {
 
 .blogspot-article-container {
     display: block;
-   
+    margin: 40px;
 }
 
 .contact-main-container {
     margin-top: 1%;
     text-align: center;
+    margin: 40px;
 }
 .contact-main-container  div{
     display: inline-block;
@@ -214,6 +217,27 @@ footer a:hover {
 .contact-main-container a {
     text-decoration: underline;
     cursor: pointer;
+    
 }
 
-
+/* Estilos para el perfil */
+.initial-profile-image img {
+    border-radius: 100%;
+}
+.initial-profile-view {
+    display: flex;
+    text-align:justify;
+    align-items: center;
+}
+.initial-profile-paragraph-container {
+    padding: 5%;
+}
+.last-projects-container {
+    margin: 40px;
+}
+.last-project-done {
+    padding: 1.5%;
+}
+.project-title {
+    text-align: center;
+}
