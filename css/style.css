@@ -229,7 +229,7 @@ footer a:hover {
 .initial-profile-image img {
     border-radius: 100%;
     width: 100%;
-    height: 100%;
+    
 }
 
 .initial-profile-paragraph-container {
@@ -245,14 +245,18 @@ footer a:hover {
     .title-images-container, .principal-blog-container h1, .principal-blog-container h4 {
         text-align: center;
     }
-    .initial-blog-view, .last-blogs-container, .principal-blog-container  {
+    .initial-blog-view, .last-blogs-container, .principal-blog-container, .initial-profile-view  {
         display: block;
         text-align: center;
     }  
-    .initial-blog-view p, .last-blogs-container p, .principal-blog-container p  {
+    .initial-blog-view p, .last-blogs-container p, .principal-blog-container p, .initial-profile-view p  {
         text-align: justify;
     }
-  
+    .initial-profile-image img {
+        border-radius: 100%;
+        width: 50%;
+        
+    }
    
 }
  
@@ -260,11 +264,11 @@ footer a:hover {
     .title-images-container {
         text-align: center;
     }
-    .initial-blog-view, .last-blogs-container, .principal-blog-container{
+    .initial-blog-view, .last-blogs-container, .principal-blog-container, .initial-profile-view{
         display: block;
         text-align: center;
     }  
-    .initial-blog-view p, .last-blogs-container p, .principal-blog-container p {
+    .initial-blog-view p, .last-blogs-container p, .principal-blog-container p, .initial-profile-view p {
         text-align: justify;
     }
   p {
@@ -278,11 +282,44 @@ footer a:hover {
 
   .contact-main-container {
       margin: 0 auto;
+      margin-top: 50px;
   }
   .contact-main-container div {
       margin: 0 auto;
       display: block;
       text-align: center;
   }
+  .initial-profile-image img {
+    width: 50%;
+  }
  
 }
+
+@media screen and (max-width: 375px)  {
+    .title-images-container{
+        text-align: center;
+        
+    }
+    .initial-blog-view, .last-blogs-container, .principal-blog-container, .initial-profile-view{
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 0%;
+        margin: 0 auto;
+        
+    }  
+    .initial-blog-view p, .last-blogs-container p, .principal-blog-container p, .initial-profile-view p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    footer {
+        display: block;
+        text-align: center;
+        
+    }
+    footer p, footer a {
+        font-size: 15px;
+    }
+}
+ 
+  
